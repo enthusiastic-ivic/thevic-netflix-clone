@@ -1,0 +1,30 @@
+.nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 45px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  //transition: all 0.45s ease-in;
+  .netflix__logo {
+    object-fit: contain;
+    max-width: 128px;
+    position: fixed;
+    left: 10px;
+  }
+  .smiley__logo {
+    object-fit: contain;
+    max-width: 40px;
+    position: fixed;
+    right: 10px;
+  }
+}
+.nav__scrollDown {
+  background: white;
+  transition: all 0.45s ease-in;
+}
